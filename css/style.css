@@ -45,7 +45,7 @@
     .heading img { margin: auto;}
   }
   @media screen and ( max-width: 768px ) {
-    .heading p { font-size: 100%; margin-top: 10px; }
+    .heading p { font-size: max(100%,16px); margin-top: 10px; }
   }
   
   nav   { position: absolute; top: 0; right: 0;}
