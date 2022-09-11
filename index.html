@@ -13,6 +13,7 @@
         
         
         <!-- css -->
+        <link rel="stylesheet" href="https://use.typekit.net/yeq3drf.css">
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/slick.css">
         <link rel="stylesheet" href="css/slick-theme.css">
@@ -21,6 +22,11 @@
         <!-- jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+        <!-- js -->
+        <script src="js/jquery.bgswitcher.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+
 
     </head>
     <body>
@@ -28,24 +34,24 @@
         <header class="bg-switcher">
         <nav>
             <ul>
-                <li><a href="#intro">Introduction</a></li>
-                <li><a href="#courses">Course</a></li>
-                <li><a href="#images">Images</a></li>
-                <li><a href="#access">Access</a></li>
+                <li><a href="#intro" class="font_en">Introduction</a></li>
+                <li><a href="#courses" class="font_en">Course</a></li>
+                <li><a href="#images" class="font_en">Images</a></li>
+                <li><a href="#access" class="font_en">Access</a></li>
             </ul>
         </nav>
         <div class="heading">
             <h1>
                 <img src="images/logo.png" alt="Happy Hack" width="916px">
             </h1>
-            <p>We are Web Designers.</p>
+            <p class="font_en">We are Web Designers.</p>
         </div>
     </header>
 
     <!-- introduction -->
     <section id="intro">
         <div class="js-scroll-fade">
-            <h2>Introduction</h2>
+            <h2 class="font_en_b">Introduction</h2>
             <div class="intro-contents">                
                 <div class="content">
                     <img src="images/introduction_001.jpg" alt="">
@@ -81,7 +87,7 @@
     <section id="courses">
         <div id="particles-js"></div>
         <div class="js-scroll-fade">
-            <h2>Courses</h2>
+            <h2 class="font_en_b">Courses</h2>
             <div class="courses">
                 <div class="inner">
                     <div class="courses-content" id="html">
@@ -137,11 +143,15 @@
             </div>
         </div>
     </section>
+
+    <!-- perticles.js -->
+    <script src="js/particles.min.js"></script>
+    <script src="js/script.js"></script>
     
     <!-- images -->
     <section id="images">
         <div class="js-scroll-fade">            
-            <h2>Images</h2>
+            <h2 class="font_en_b">Images</h2>
             <div class="slider">
                 <img src="images/background1.jpg" alt="" id="slide-img1">
                 <img src="images/background2.jpg" alt="" id="slide-img2">
@@ -154,7 +164,7 @@
     <!-- access -->
     <section id="access">
         <div class="js-scroll-fade">
-            <h2>Access</h2>
+            <h2 class="font_en_b">Access</h2>
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3131287759825!2d135.49025991523217!3d34.697281280435405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1662720768115!5m2!1sja!2sjp"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -163,17 +173,12 @@
 
     <!-- footer -->
     <footer>
-        <p>
+        <p class="font_en">
             &copy;2019 Happy Hack Inc.
         </p>
     </footer>
 
-            <!-- js -->
-            <script src="js/jquery.bgswitcher.js"></script>
-            <script src="js/slick.min.js"></script>
-            <script src="js/particles.min.js"></script>
-            <script src="js/script.js"></script>
-            <script src="js/main.js"></script>
-            
+
+
 </body>
 </html>

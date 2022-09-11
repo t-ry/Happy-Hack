@@ -46,7 +46,8 @@ label { margin: 0; padding: 0;}
 
 a, span, u, b { color: inherit; }
 
-.font_en { font-family: futura-pt-bold, sans-serif; font-weight: 700;font-style: normal; line-height: 1.5; }
+.font_en_b { font-family: futura-pt-bold, sans-serif; font-weight: 700; font-style: normal;}
+.font_en { font-family: futura-pt, sans-serif; font-weight: 400;}
 .uppercase { text-transform: uppercase; }
 
 /* clearfix */
