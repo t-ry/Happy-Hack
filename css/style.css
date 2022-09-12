@@ -38,7 +38,7 @@
   .bg-switcher { width: 100vw; height: 100vh; background: url(../images/background1.jpg) center center / cover no-repeat; display: flex;  align-items: flex-end; justify-content: flex-end; }
   
   .heading   { position: absolute; top: 50%; left: 50%; transform: translateY(-50%) translateX(-50%); -webkit-transform: translateY(-50%) translateX(-50%); }
-  .heading img { width: 70vw; max-width: 900px;}
+  .heading img { width: 70vw; max-width: 900px; }
   .heading p { font-size: 45px; font-weight: 100; font-style: italic; color: #fff; text-align: center; margin-top: 30px; }
 
   @media screen and ( max-width: 480px ) {
@@ -62,7 +62,7 @@
   /* introduction */
   .content     { display: flex; justify-content: center; align-items: center; margin-bottom: 40px; }
   .content img { width: 500px; object-fit: contain; margin: 20px;}
-  .intro-txt   { width: 500px; margin: 20px; line-height: 32px; font-size: 8px; }
+  .intro-txt   { width: 500px; margin: 20px; line-height: 32px; font-size: 8px; text-align: center; align-items: center;}
   .intro-txt p { width: 400px; margin: 0 0px 20px; }
   .content:first-of-type a { background-color: #3D5CDB; }
   .content:last-of-type  a { background-color: #ffbf00; }
